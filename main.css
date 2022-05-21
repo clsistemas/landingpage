@@ -12,7 +12,7 @@ html {
 }
 
 body{
-	background: url(./hero-bg.jpeg);
+	background: url(./img/hero-bg.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
