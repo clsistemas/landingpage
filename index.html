@@ -1,110 +1,57 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  
-  <title>BOSQUES DE SANTA FE</title>
-  <link rel="stylesheet" href="index.css"/>
-  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>CGCSF</title>
 </head>
 
-<body> 
-   <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-         <a>
-            <img class="navimg" src="./img/BSF.png"/>
-            
-          </a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
-          </div>
-          <ul>
-            <li><a href="#hero" data-after="PRINCIPAL">PRINCIPAL</a></li>
-             
-          
-            <li><a href="#about" data-after="NOSOTROS">NOSOTROS</a></li>
-            <li><a href="#contact" data-after="Contacto">Contacto</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
- 
-  <section id="hero">
-    <div class="hero container">
-      <div>
-        <h1>Bosques <span></span></h1>
-        <h1>De <span></span></h1>
-        <h1>Santa <span></span></h1>
-        <h1>Fe <span></span></h1>
-        <a href="https://www.bsf.mx/" type="button" class="cta">INGRESAR</a>
-      </div>
-    </div>
-  </section>
-  
-   <section id="about">
-    <div class="about container">
-      <div class="col-left">
-      <div class="about-img">
-        <h1 class="sectiona-title">NOSOTROS</h1>
-         </div>
-      </div>
-      <div class="col-right">
-        
-        <h2>CLUB DE GOLF CAÑADA DE SANTA FE</h2>
-        <p>Alcanzar la excelencia en los servicios y productos, contribuyendo a la satisfacción de las
-          necesidades de nuestros socios, a través del profesionalismo de nuestro equipo de colaboradores
-          administrando de manera eficiente los recursos que los socios nos confían.</p>
-       
-      </div>
-    </div>
-  </section>
+<body>
 
- <section id="contact">
-    <div class="contact container"> 
-      <div>
-        <h1 class="section-title">Información de Contacto</h1>
-      </div>
-      <div class="contact-items">
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
-          <div class="contact-info">
-            <h1>Teléfonos</h1>
-            <h2>55 21 62 00 15</h2>
-            <h2>55 21 62 03 04</h2>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
-          <div class="contact-info">
-            <h1>Email</h1>
-            <h2>portalwebsoporte@cgcsf.mx</h2>
-            <h2>bsfinfo@cgcsf.mx</h2>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
-          <div class="contact-info">
-            <h1>Domicilio</h1>
-            <h2>Prolongación Paseo De Tolsa 30 
-                San Mateo Tlaltenango Cuajimalpa de Morelos
-                C.P. 05600 CDMX</h2>
-          </div>
-        </div>
-      </div>
-      <div>
-        <p class="contact-down">CGCSF 2022</p> 
-      </div>
+  <header>
+    <!--Icono Menu-->    
+    <img src="./img/BSF.png" alt="" class="logo">
+    <!--Menu header-->
+    <ul class="main-menu">
+      <li class="menu-item">Principal</li>
+      <li class="menu-item">Contacto</li>
+      <li class="cta"><a href="https://www.bsf.mx">ACCESO</a></li>
+    </ul>
+  </header>
+
+<div class="padre">
+
+  <div class="hijo"> 
+    
+    <h8 class="titulo"><span class="typed"></span></h8>
+    
+    <div class="titulo" id="cadenas-texto">
+
+    <p><i class="dialogo">Alcanzar la excelencia en los servicios y productos, contribuyendo a la satisfacción de las necesidades de nuestros socios, a través del profesionalismo de nuestro equipo de colaboradores administrando de manera eficiente los recursos que los socios nos confían.</i></p>
+    
     </div>
-  </section>
-      </div>
+
+  </div>
+
+</div>
+
+  <!--Footer-->
+  <footer>
+    
+    <div class="bottom">
+      <center>
+        <span class="credit">Desarrollado por 
+          <a target="_blank" href="mailto:portawebsoporte@cgcsf.mx">TI BSF</a> | </span>
+        <span class="far fa-copyright"></span><span> 2021.</span>
+      </center>
     </div>
-  </section>
- <script src="./js/app.js"></script>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="./js/main.js"></script>
+  
 </body>
 
 </html>
